@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="../css/auth.css">
+    <!-- nav code  -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("../nav/nav.html");
+            $("#footer-placeholder").load("../nav/footer.html");
+        });
+    </script>
+    <!-- .............. -->
+</head>
+
+<body >
+
+    <div id="nav-placeholder">
+    </div>
+
+    <main>
+
+      <div class="login-block">
+        <h1>Geo Trans</h1>
+        <!-- <img src="http://scanfcode.com/wp-content/uploads/2017/09/cropped-Untitled-1.png" alt="Scanfcode"> -->
+        <h1>Log into your account</h1>
+
+
+    <form action="#">
+
+        <div class="form-group">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Your email address">
+          </div>
+        </div>
+        
+        <hr class="hr-xs">
+
+        <div class="form-group">
+          <div class="input-group">
+            <input type="password" class="form-control" placeholder="Your password">
+          </div>
+        </div>
+        <hr class="hr-xs">
+<a href="../auth/signup.html">
+    
+    <button class="btn btn-outline-warning  btn-lg" type="button">Sign Up</button>
+</a>
+
+        <button class="btn btn-outline-primary  btn-lg" type="submit">Login</button>
+
+        <!-- 
+        <div class="login-footer">
+          <h6>login with</h6>
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div> -->
+
+      </form>
+	
+</body>
+
+</html>

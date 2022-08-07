@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+ <!-- Styles********* -->
+<link rel="stylesheet" href="./css/index.css">
+
+ <!-- nav code  -->
+ <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+ <script>
+     $(function() {
+                $("#nav-placeholder").load("../nav/nav.html");
+         $("#footer-placeholder").load("../nav/footer.html");
+     });
+ </script>
+ <!-- .............. -->
+</head>
+<body>
+    <div id="nav-placeholder">
+    </div>
+   
+   
+    <h1 style="text-align: center;">Choose Your Option</h1>
+    <div class="container">
+
+        <!-- Card deck -->
+        <div class="card-deck row">
+        
+          <div class="col-xs-12 col-sm-6 col-md-4">
+          <!-- Card -->
+          <div class="card text-center">
+        
+            <!--Card image-->
+            <div class="view overlay">
+              <img class="card-img-top" src="https://img.freepik.com/free-vector/delivery-staff-ride-motorcycles-shopping-concept_1150-34879.jpg" alt="Card image cap">
+              <a href="#!">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+        
+            <!--Card content-->
+            <div class="card-body">
+        
+              <!--Title-->
+              <h4 class="card-title">Send Parcel</h4>
+              <!--Text-->
+              <p class="card-text">Send Your Parcel All Over India</p>
+              <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+              <a href="../auth/login.html">
+
+                <button type="button" class="btn btn-light-blue btn-md"> <i class="bi bi-send"></i> Send Parcel</button>
+              </a>
+        
+            </div>
+        
+          </div>
+          <!-- Card -->
+          </div>
+        
+          <div class="col-xs-12 col-sm-6 col-md-4">
+          <!-- Card -->
+          <div class="card mb-4 text-center">
+        
+            <!--Card image-->
+            <div class="view overlay">
+              <img class="card-img-top" src="https://images.assetsdelivery.com/compings_v2/prettyvectors/prettyvectors1906/prettyvectors190600130.jpg" alt="Card image cap">
+              <a href="#!">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+        
+            <!--Card content-->
+            <div class="card-body">
+        
+              <!--Title-->
+              <h4 class="card-title">Track Your Parcel</h4>
+              <!--Text-->
+              <p class="card-text">Track Your Parcel Location</p>
+              <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+              <button type="button" class="btn btn-light-blue  btn-md"><i class="bi bi-search"></i> Track Parcel</button>
+        
+            </div>
+        
+          </div>
+          <!-- Card -->
+        </div>
+
+        </div>
+        </div>
+
+ 
+
+    <!-- <footer id="footer-placeholder">
+    </footer> -->
+</body>
+</html>
